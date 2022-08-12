@@ -1,0 +1,13 @@
+#main{
+  padding-top: 100px;
+}
+.row{
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.row > *{
+  width: 50%;
+}

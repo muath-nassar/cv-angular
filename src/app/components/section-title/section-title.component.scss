@@ -1,0 +1,36 @@
+
+
+#main {
+  display: flex;
+  align-items: flex-end;
+}
+
+#square {
+  margin-left: 50px;
+  display: flex;
+  rotate: 45deg;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  rotate: -45deg;
+  color: white;
+  font-size: 30px;
+}
+#right-side{
+  font-family: Mulish-ExtraBold,serif;
+  font-size: 40px;
+  padding-left: 30px;
+  flex: 1;
+  color: black;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  margin-bottom: 28px;
+  margin-right: 20%;
+}
+
+
+

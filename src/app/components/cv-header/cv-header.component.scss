@@ -1,0 +1,104 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+*{
+  margin: 0;
+  padding: 0;
+}
+$my-black : #100720;
+
+.img-circle{
+  /* Natural 7 */
+  width: 230px;
+  height: 230px;
+  //box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
+  border-radius:20px;
+  border: #46244C 15px solid;
+  margin-bottom: -90px;
+}
+.header-row{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  width: 100%!important;
+  flex-wrap: wrap;
+}
+#person-name{
+  font-family: ArchivoBlack, SansSerif, serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 40px;
+  border-bottom: 1px #766f6f solid;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+#div-person-position{
+  display: flex;
+  flex-flow: column;
+  margin-left: 30px;
+  height: auto;
+  align-self: flex-end;
+  font-weight: bold;
+
+}
+#position{
+  margin-top: 5px;
+  font-size: 30px;
+  font-family: Cairo,SansSerif,serif;
+  font-weight: 900;
+}
+#header{
+  margin: 0 !important;
+  padding: 20px 50px!important;
+  background-color: #46244C;
+}
+
+#contact-us{
+  margin-left: auto;
+  border: 0 white solid;
+  border-left-color: #bfbdbd;
+  border-left-width: 5px;
+  padding-left: 10px;
+}
+#contact-us > *{
+  font-family: Cairo,serif;
+  color: $my-black;
+}
+
+ul{
+  list-style-type: none;
+}
+#contact-us li{
+  align-items: baseline;
+  display: flex;
+  flex-flow: row;
+}
+#email{
+
+}
+.contact-item{
+  margin: 0;
+  padding-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+#contact-us > *{
+  color: #FFFFFF;
+}
+
+p{
+  color: #FFFFFF;
+}
+a{
+  color: #FFFFFF;
+}
+
+#address{
+  display: flex;
+  flex-flow: row;
+}
+#address > *{
+  color: #bfbdbd;
+  font-family: Cairo,serif;
+}
+
+
+

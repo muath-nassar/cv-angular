@@ -1,0 +1,24 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+#main{
+  display: flex;
+  flex-wrap: nowrap;
+}
+#key{
+  text-align: right;
+  flex: 3;
+  font-weight: bold;
+  color: #1b1b1b;
+  font-size: 24px;
+  font-family: Mulish-Regular,serif;
+  border-right: 3px #766f6f solid;
+  padding-right: 5px;
+}
+#value{
+  margin-left: 20px;
+  flex: 8;
+  color: #1b1b1b;
+  font-size: 25px;
+  font-family: Mulish-Light,serif;
+}
