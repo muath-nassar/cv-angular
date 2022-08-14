@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-//@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap';
 @font-face {
   font-family: ArchivoBlack;
   src: url(assets/fonts/ArchivoBlack-Regular.ttf) format("opentype");
@@ -12,8 +12,8 @@
 }
 
 @font-face {
-  font-family: Mulish-ExtraBold;
-  src: url(assets/fonts/Mulish-ExtraBold.ttf) format("opentype");
+  font-family: Mulish-Bold;
+  src: url(assets/fonts/Mulish-Bold.ttf) format("opentype");
 }
 @font-face {
   font-family: Mulish-Light;

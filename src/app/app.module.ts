@@ -11,6 +11,11 @@ import { PersonalInformationComponent } from './components/personal-information/
 import { InformationComponent } from './components/information/information.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { EducationComponent } from './components/education/education.component';
+import { DurationComponent } from './components/duration/duration.component';
+import { WorkExperiancComponent } from './components/work-experianc/work-experianc.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SkillBarComponent } from './components/skill-bar/skill-bar.component';
+
 
 @NgModule({
   declarations: [
@@ -22,13 +27,17 @@ import { EducationComponent } from './components/education/education.component';
     InformationComponent,
     AboutMeComponent,
     EducationComponent,
+    DurationComponent,
+    WorkExperiancComponent,
+    SkillsComponent,
+    SkillBarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,SkillBarComponent]
 })
 export class AppModule { }
