@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SkillBarComponent } from './skill-bar.component';
+import { ProgressFieldComponent } from './progress-field.component';
 
-describe('SkillBarComponent', () => {
-  let component: SkillBarComponent;
-  let fixture: ComponentFixture<SkillBarComponent>;
+describe('ProgressFieldComponent', () => {
+  let component: ProgressFieldComponent;
+  let fixture: ComponentFixture<ProgressFieldComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SkillBarComponent ]
+      declarations: [ ProgressFieldComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SkillBarComponent);
+    fixture = TestBed.createComponent(ProgressFieldComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

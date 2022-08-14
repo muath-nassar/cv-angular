@@ -14,7 +14,7 @@ import { EducationComponent } from './components/education/education.component';
 import { DurationComponent } from './components/duration/duration.component';
 import { WorkExperiancComponent } from './components/work-experianc/work-experianc.component';
 import { SkillsComponent } from './components/skills/skills.component';
-import { SkillBarComponent } from './components/skill-bar/skill-bar.component';
+import { ProgressFieldComponent } from './components/progress-field/progress-field.component';
 
 
 @NgModule({
@@ -30,7 +30,7 @@ import { SkillBarComponent } from './components/skill-bar/skill-bar.component';
     DurationComponent,
     WorkExperiancComponent,
     SkillsComponent,
-    SkillBarComponent,
+    ProgressFieldComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +38,6 @@ import { SkillBarComponent } from './components/skill-bar/skill-bar.component';
     NgbModule,
   ],
   providers: [],
-  bootstrap: [AppComponent,SkillBarComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
