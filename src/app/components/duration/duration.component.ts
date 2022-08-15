@@ -22,6 +22,12 @@ export class DurationComponent implements OnInit {
   @Input()
   borderColor = "";
 
+  @Input()
+  hidden = true;
+
+  @Input()
+  link="";
+
   constructor() { }
 
   ngOnInit(): void {

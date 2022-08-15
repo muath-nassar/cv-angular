@@ -15,6 +15,8 @@ import { DurationComponent } from './components/duration/duration.component';
 import { WorkExperiancComponent } from './components/work-experianc/work-experianc.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProgressFieldComponent } from './components/progress-field/progress-field.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { GoToTopComponent } from './components/go-to-top/go-to-top.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { ProgressFieldComponent } from './components/progress-field/progress-fie
     DurationComponent,
     WorkExperiancComponent,
     SkillsComponent,
-    ProgressFieldComponent
+    ProgressFieldComponent,
+    ProjectsComponent,
+    GoToTopComponent
   ],
   imports: [
     BrowserModule,
