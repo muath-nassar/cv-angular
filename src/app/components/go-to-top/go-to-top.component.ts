@@ -25,7 +25,7 @@ export class GoToTopComponent implements OnInit {
 // @HostListener('scroll', ['$event']) // for scroll events of the current element
   @HostListener('window:scroll', ['$event']) // for window scroll events
   onScroll() {
-    this.isScrolled = window.scrollY > 10
+    this.isScrolled = window.scrollY > 400
     console.log(window.scrollY)
   }
 
